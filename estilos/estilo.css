@@ -1,35 +1,46 @@
-html {font-size: 15px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
-    font-family: "Kanit", sans-serif; /* este deve ser o nome da fonte que você obteve no Google Fonts */
-    background-color: rgb(153, 147, 147);
-    letter-spacing: normal;
-  }
-  h1 {
-    font-size: 30px;
-    text-align: center;
-    margin: 0;
-    padding: 20px 0;
-    color: rgb(29, 22, 92);
-    text-shadow: 3px 3px 1px black;
-  }
-  h2 {
-    text-align: center;
-  }
-  h3 {
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 0px;
-  }
-
-  body {
-    width: 700px;
-    margin: 0 auto;
-    background-color: rgb(81, 93, 148);
-    padding: 0 20px 20px 20px;
-    border: 2px solid black
+html {
+  font-size: 15px;
+  font-family: 'Tilt Warp', cursive; 
+  background-color: rgb(67, 21, 110);
+  letter-spacing: normal;
+  color: aliceblue;
 }
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: black;
+  text-shadow: 6px 6px 6px rgb(43, 12, 68);
+  border-bottom: 2px solid black ;
+
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0px;
+  margin: auto;
+  text-align: center;
+}
+
+#primeirafrase{
+  margin: 6px;
+  font-size: 17px;
+}
+
 img {
-  display: inline-block;
-  margin: 0 auto;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+a{ 
+  color: aliceblue; 
 }
 
-  
