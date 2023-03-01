@@ -1,9 +1,9 @@
 html {
-  font-size: 15px;
-  font-family: 'Tilt Warp', cursive; 
+  font-family: 'Tilt Warp', cursive;
   background-color: rgb(67, 21, 110);
   letter-spacing: normal;
   color: aliceblue;
+  
 }
 
 h1 {
@@ -13,7 +13,7 @@ h1 {
   padding: 20px 0;
   color: black;
   text-shadow: 6px 6px 6px rgb(43, 12, 68);
-  border-bottom: 2px solid black ;
+  border-bottom: 2px solid black; /*faixa preta*/
 
 }
 
@@ -23,24 +23,37 @@ h2 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 15px;
   line-height: 2;
   letter-spacing: 0px;
   margin: auto;
   text-align: center;
 }
 
-#primeirafrase{
+#primeirafrase {
   margin: 6px;
   font-size: 17px;
 }
 
 img {
   display: block;
-  margin: auto;
-  text-align: center;
-}
-a{ 
-  color: aliceblue; 
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  
+  
 }
 
+a {
+  color: aliceblue;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  float: left;
+}
